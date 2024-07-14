@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        a:link, a:visited{
+            display: block;
+            font-weight: bold;
+            width:120px;
+            text-align: center;
+            padding: 4px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        a:link, a:active{
+            background-color:aqua;
+        }
+        li{
+            float: left;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Responsive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="background2.jpg">
+    <header>
+        <div class="container">
+            <h1> HELLO EVERYONE</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Our Website</h2>
+            <p>Discover our amazing services and portfolio.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of professionals dedicated to delivering top-quality services to our clients. Our expertise spans various industries and we are committed to excellence in all we do.</p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>We build responsive and functional websites tailored to your needs.</p>
+            </div>
+            <div class="service">
+                <h3>Graphic Design</h3>
+                <p>Our creative team provides stunning designs for your brand.</p>
+            </div>
+            <div class="service">
+                <h3>SEO Optimization</h3>
+                <p>Improve your search engine ranking with our expert SEO services.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="media1.jpeg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A description of the first project.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="media2.jpeg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A description of the second project.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="media3.jpeg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>A description of the third project.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Awesome Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
